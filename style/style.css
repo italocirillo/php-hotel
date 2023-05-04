@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+h1 {
+    color: #fdcd12;
+}
+
+.stelle {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
