@@ -43,6 +43,9 @@ $hotels = [
 if (isset($_GET['parcheggio']) && isset($_GET['voto'])) {
     $parcheggio = $_GET['parcheggio'];
     $voto = $_GET['voto'];
+} else {
+    $parcheggio = 2;
+    $voto = 0;
 }
 
 ?>
